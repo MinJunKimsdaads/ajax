@@ -15,7 +15,7 @@
             data: {query:'미움받을 용기'},
             headers: {Authorization: 'KakaoAK 80579b21bf87d4f9cdcb3bf6780f0bdb'}
         }).done(function(msg){
-            console.log(msg);
+            console.log(msg.documents[0].title);
         })
 
     </script> 
